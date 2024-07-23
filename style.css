@@ -1,0 +1,68 @@
+body{
+    background-image: url(back2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 0%, 60%);
+}
+
+h1{
+    color: hsl(234, 98%, 30%);
+}
+
+form{
+    position: relative;
+    top: 30px;
+    background-color: hsl(0, 0%, 80%);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.4);
+}
+
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.7);
+    border-radius: 10px;
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border: navy;
+    size: 1.5em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(234, 98%, 30%);
+    color: antiquewhite;
+}
+
+button:hover{
+    background-color: hsl(234, 98%, 50%);
+}
+button:active{
+    background-color: hsl(234, 98%, 65%);
+}
+
+#answer{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.conversions{
+    margin-top: 20px;
+}
